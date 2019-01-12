@@ -135,13 +135,6 @@ class TaxCalculator(object):
 					return 149298 + 0.37 * (self.income - 500000)
 
 
-if __name__ == "__main__":
-
-	a = TaxCalculator(68000, 'single', '2018')
-	print(a._calculate())
-
-
-
 
 
 

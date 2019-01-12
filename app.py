@@ -35,6 +35,3 @@ def index():
 		return render_template("results.html", taxes_due=taxes_string)
 	else:
 		return render_template("index.html")
-
-if __name__ == "__main__":
-	app.run(debug=True)
