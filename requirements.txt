@@ -35,6 +35,7 @@ google-auth==1.5.1
 google-cloud-vision==0.34.0
 googleapis-common-protos==1.5.3
 grpcio==1.15.0
+gunicorn==19.9.0
 httplib2==0.10.3
 idna==2.7
 image==1.5.17
