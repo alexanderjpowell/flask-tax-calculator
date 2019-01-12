@@ -5,8 +5,12 @@ class TaxCalculator(object):
 		self.income = income
 		self.filing_status = filing_status
 		self.year = year
+		self.taxes_due = self._calculate()
 
-	def calculate(self):
+	def getTaxesDue(self):
+		return self.taxes_due
+
+	def _calculate(self):
 		if self.year == "2017":
 			if self.filing_status == "single":
 				if self.income <= 9325:
@@ -134,7 +138,7 @@ class TaxCalculator(object):
 if __name__ == "__main__":
 
 	a = TaxCalculator(68000, 'single', '2018')
-	print(a.calculate())
+	print(a._calculate())
 
 
 
