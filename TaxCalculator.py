@@ -1,3 +1,8 @@
+# Data taken from:
+# https://www.irs.com/articles/2017-federal-tax-rates-personal-exemptions-and-standard-deductions
+# https://www.irs.com/articles/2018-federal-tax-rates-personal-exemptions-and-standard-deductions
+#
+#
 
 class TaxCalculator(object):
 
